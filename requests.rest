@@ -1,0 +1,9 @@
+
+
+curl -X POST "http://localhost:8000/batch" \
+  -H "Content-Type: application/json" \
+  -d '[
+    {"description": "Intervals", "avg_hr": 172},
+    {"description": "Morning Run", "avg_hr": 145},
+    {"description": "Easy recovery", "avg_hr": 125}
+  ]'
