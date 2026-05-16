@@ -33,7 +33,7 @@ app.add_middleware(
 )
 
 # ── Load Model Once at Startup ─────────────────────────────
-MODEL_PATH = "./model"
+MODEL_PATH = "veeresh11/workout-activity-classifier"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 print(f"Loading DistilBERT from {MODEL_PATH}...")
