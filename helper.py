@@ -1,8 +1,4 @@
 from transformers import (
-    AutoModelForSequenceClassification,
-    AutoTokenizer
-)
-from transformers import (
     DistilBertTokenizer,
     DistilBertForSequenceClassification
 )
